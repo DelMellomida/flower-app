@@ -3,7 +3,7 @@ import React from 'react';
 const Flower = () => {
   return (
     <>
-      <div className="flower relative">
+      <div className="flower relative sway-animation">
         <div className="flower_wrapper absolute inset-x-1/2 bottom-0">
           <div className="flower-line w-1 h-96 bg-[image:var(--line-color)] w-[1vmin] h-[54vmin];"></div>
           <div className="flower-center absolute inset-x-full bg-red-800 w-2 h-2 -translate-x-1/2 rotate-[-10deg]">
@@ -23,7 +23,7 @@ const Flower = () => {
           </div>
         </div>
       </div>
-    </> 
+    </>
   );
 };
 
